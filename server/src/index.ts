@@ -41,7 +41,7 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
   cors: {
-    origin: ["*", "https://talku-talku-v3.vercel.app", "https://talku-talku-v3-server-5wgbjqivt-vinyl-davyl.vercel.app", "https://talku-talku-v3-server.vercel.app"],
+    origin: ["*", "https://talku-talku-v3-beta.vercel.app"],
     credentials: true,
   },
 });
